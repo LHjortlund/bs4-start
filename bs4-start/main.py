@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 
+#web scraping
+
 response = requests.get("https://appbrewery.github.io/news.ycombinator.com/")
 yc_web_page = response.text
 
